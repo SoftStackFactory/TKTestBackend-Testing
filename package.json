@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "server/server.js",
   "scripts": {
-    "test": "mocha --timeout 10000 --reporter nyan test/test.js"
+    "test": "mocha --timeout 10000 --reporter nyan test/*.js"
   },
   "dependencies": {
     "compression": "^1.0.3",
